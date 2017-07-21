@@ -7,4 +7,4 @@ hiking
 Denver
 minigolf
 Colorado Springs
-The code reads this file into a queue, and attempts to construct a path through the graph doing all of the activities in order without repeating any nodes. If it finds that it cannot complete the queue with its current structure, it will retrace its steps and attempt to find a solution where the conflict can be avoided.  After completing, the code will either list the path of cities that accomplish the route, or it will tell the user that the requested path is impossible to create.
+The code reads this file into a queue, and attempts to construct a path through the graph doing all of the activities in order without repeating any nodes.  After completing, the code will either list the path of cities that accomplish the route, or it will tell the user that the requested path is impossible to create.
