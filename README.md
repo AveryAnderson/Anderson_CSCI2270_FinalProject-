@@ -14,6 +14,6 @@ Example Run:  After compiling the code start it in the command line.  You will b
 
 Dependencies:  The only files that this program really needs to run are the header, implementation and main file and the CitySet.txt file. Although the Itinerary files save a lot of time going through menus.
 
-System Requirements: This program was written on a Linux VM. It would probalby work best in a similar environment.
+System Requirements: This program was written on a Linux VM. It would probably work best in a similar environment.
 
 Bugs:  This program can catch most redundancies or mis-entries it encounters.  If for example one tries to add connections between cities that already exist, or tries to delete objects that do not exist, it will yell at them.  However there are some issues that I couldn't figure out how to avoid.  If for example one were to mispell one of the activities in their itinerary, the loop will never find a solution, though it will still terminate. I have also found one situation where the code will abort.  If when adding a connection between cities one were to type any character that is not a number in the "distance" parameter the code fails. This happens because the stoi function doesn't know how to handle these arguments and breaks the program.  Not knowing how to catch this error, I'm relying on the user to not put invalid inputs.
