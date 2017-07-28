@@ -1,0 +1,27 @@
+Cities:
+Boulder bowling,hiking,minigolf,movies
+Boulder   This is a dublicate city, so it will not be read.
+Denver orchestra,movies,sight_seeing
+Keystone  visit_mount_rushmore,camping
+Omaha
+Salt_Lake_City see_tabernacle,minigolf,
+Roswell get_abducted_by_aliens,bowling
+Moon become_celestial_overlord,minigolf
+Las_Vegas gambling,get_heatstroke,sight_seeing
+Alamosa visit_great_sand_dunes,hiking,camping
+Canyon_Village visit_yellowstone,camping,hiking
+Connections:
+Denver Boulder 30
+Denver Alamosa 235
+Boulder Keystone 370
+Denver Omaha 488
+Omaha Keystone 528
+Keystone Canyon_Village 501
+Canyon_Village Salt_Lake_City 362
+Salt_Lake_City Boulder 501
+Salt_Lake_City Las_Vegas 424
+Salt_Lake_City Roswell 795
+Roswell Alamosa 332
+Roswell Moon 238900
+Roswell Las_Vegas 770
+Roswell Denver 505
